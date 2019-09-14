@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ pageTitle }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+    {{#if formsCSS}}
+        <link rel="stylesheet" href="/css/forms.css">
+    {{/if}}
+    {{#if productCSS}}
+        <link rel="stylesheet" href="/css/product.css">
+    {{/if}}
+</head>
+
+<body>
+        <nav class="main-nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/"><img src="/img/logoOnly.png" alt=""></a></li>
+                <li class="main-header__item"><a class="{{#if activecodeOfConduct }}active{{/if}}" href="/">Home</a></li>
+                <li class="main-header__item"><a class="{{#if activeAddProduct }}active{{/if}}" href="/code">Code of conduct</a></li>
+            </ul>
+        </nav>
+    {{{ body }}}
+</body>
+
+</html>
