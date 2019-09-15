@@ -15,6 +15,51 @@ h1 {
   color: #fff;
   text-align: center;
 }
+.home h2 {
+  color: #7e57c2;
+  text-align: center;
+  font-size: 3em;
+  padding: 5px;
+}
+.form {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+.contact h3 {
+  color: #7e57c2;
+  text-align: center;
+  font-size: 2.2em;
+  margin: 40px 0px 15px 0px;
+}
+.contact span {
+  font-size: 1.3em;
+  display: inline-block;
+}
+.contact p {
+  color: #333333;
+}
+.contact .icon {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 1.5em;
+  color: #5E35B1;
+}
+.contact .icon a {
+  margin-left: 10px;
+}
+.home p {
+  font-size: 1.5em;
+  color: #333333;
+  padding: 0px 20px 0px 20px;
+}
+.form a {
+  text-decoration: none;
+  color: #5E35B1;
+  font-size: 1.1em;
+  display: inline-block;
+}
 ul {
   margin: 20px;
 }
