@@ -22,11 +22,16 @@
         <nav class="main-nav">
             <ul class="main-header__item-list">
                 <li class="main-header__item"><a href="/"><img src="/img/logoOnly.png" alt=""></a></li>
-                <li class="main-header__item"><a class="{{#if activecodeOfConduct }}active{{/if}}" href="/">Home</a></li>
-                <li class="main-header__item"><a class="{{#if activeAddProduct }}active{{/if}}" href="/code">Code of conduct</a></li>
+                <div class="main-header__item-container">
+                  <li class="main-header__item"><a class="{{#if activecodeOfConduct }}active{{/if}}" href="/">Home</a></li>
+                  <li class="main-header__item"><a class="{{#if activeAddProduct }}active{{/if}}" href="/code">Code of conduct</a></li>
+                </div>
             </ul>
         </nav>
     {{{ body }}}
+    <footer>
+      <span>@2019 by ChicasProgramando</span>
+    </footer>
 </body>
 
 </html>
