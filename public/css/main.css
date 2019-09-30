@@ -11,13 +11,6 @@ body {
   /* font-family: 'Hepta Slab', sans-serif; */
   font-family: 'Roboto', sans-serif;
 }
-h1 {
-  font-family: 'Hepta Slab', sans-serif;
-  background-color: #7e57c2;
-  height: 100px;
-  color: #fff;
-  text-align: center;
-}
 .home__information-section h2 {
   font-family: 'Hepta Slab', sans-serif;
   /* color: #7e57c2; */
@@ -182,6 +175,46 @@ main {
   background: #7c63ac;
   /* padding: 2rem; */
   padding: 2rem 2rem 3rem 2rem;
+}
+
+.code-of-conduct header h1 {
+  font-family: 'Hepta Slab', sans-serif;
+  font-size: 2em;
+  color: #7e577e;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.code-of-conduct__code-section {
+  background-color: #7c63ac;
+  padding: 1em;
+}
+
+.code-of-conduct__code-section p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.code-of-conduct__code-section ul li {
+  color: #fff;
+}
+
+.code-of-conduct__references-section {
+  padding: 1em;
+}
+
+.code-of-conduct__references-section h2 {
+  color: #7e577e;
+  font-family: 'Hepta Slab', sans-serif;
+}
+
+.code-of-conduct__references-section ul li {
+  color: #7e577e;
+}
+
+.code-of-conduct__references-section p {
+  color: #7e577e;
+  font-size: 0.8em;
 }
 
 .grid {
