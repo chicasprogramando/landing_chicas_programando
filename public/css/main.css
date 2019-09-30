@@ -209,11 +209,11 @@ main {
 }
 
 .code-of-conduct__references-section ul li {
-  color: #7e577e;
+  color: #333333;
 }
 
 .code-of-conduct__references-section p {
-  color: #7e577e;
+  color: #333333;
   font-size: 0.8em;
 }
 
@@ -254,6 +254,7 @@ footer {
 footer span {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  color: #333333;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
