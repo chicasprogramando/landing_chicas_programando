@@ -146,6 +146,7 @@ main {
   flex-direction: column;
   width: 50%;
   margin: 2rem;
+  text-decoration: none;
 }
 
 .home__cards-section .home__card-item .home__card-item-img-container img {
